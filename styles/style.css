@@ -52,6 +52,11 @@
   z-index: 2;
 }
 
+.header__link {
+  color: #2f80ed;
+  text-decoration: none;
+}
+
 .header__main-illustration {
   height: 608px;
   width: 765px;
@@ -167,10 +172,94 @@
   font-weight: normal;
 }
 
+/*Блок метод фейнмана*/
+
+.feynman {
+  height: 790px;
+  padding-top: 100px;
+  position: relative;
+  background-color: #f2f2f2;
+  z-index: -2;
+}
+
+.feynman__title {
+  width: 648px;
+  margin: 0 auto;
+  margin-bottom: 70px;
+  text-align: center;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+}
+
+.feynman__subtitle {
+  text-align: center;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+}
+
+.feynman__link {
+  position: absolute;
+  top: 395px;
+  right: 48px;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  color: #2f80ed;
+  text-decoration: none;
+}
+
+.feynman__image {
+  height: 637px;
+  width: 867px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+
+
+/*Блок принципов кауфмана*/
+
+.kaufman {
+  position: relative;
+  background-color: #1f1f1f;
+  overflow: hidden;
+  z-index: -2;
+}
+
+.section-title__theme_dark {
+  margin-top: 90px;
+  color: white;
+}
+
+.section-subtitle__theme_dark {
+  color: white;
+}
+
+.table__theme_dark {
+  margin-bottom: 90px;
+}
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.table__text_theme_dark {
+  margin: 0;
+  padding: 0;
+}
+
+.kaufman__triangle {
+  height: 877px;
+  width: 877px;
+  position: absolute;
+  top: 0;
+  right: -210px;
+  z-index: -1;
 }
