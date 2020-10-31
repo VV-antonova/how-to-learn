@@ -189,10 +189,6 @@
   font-weight: normal;
 }
 
-.table__text:last-child {
-  margin-top: 20px;
-}
-
 /*Блок метод фейнмана*/
 
 .feynman {
