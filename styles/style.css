@@ -260,7 +260,7 @@
   z-index: 2;
 }
 
-.section-title__theme_dark {
+.section-title_theme_dark {
   margin-top: 90px;
   color: white;
 }
@@ -345,7 +345,7 @@
   list-style: none;
 }
 
-.footer__column_link {
+.footer__column-link {
   line-height: 30px;
   font-size: 18px;
   font-weight: normal;
