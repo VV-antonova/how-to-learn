@@ -1,32 +1,4 @@
-.page {
-  min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
-  max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
-  margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: 'Helvetica Neue', Arial, sans-serif;
-  color: black;
-}
-
 /*Шапка*/
-
-.header {
-  height: 100vh;
-  min-height: 600px;
-  max-height: 756px;
-  /* выше установили ограничения для секции */
-  position: relative;
-  display: flex;
-  align-items: center;
-  background-color: #f2f2f2;
-}
-
-.logo {
-  width: 183px;
-  z-index: 2;
-}
 
 .logo_place_header {
   height: 32px;
@@ -86,19 +58,6 @@
 /*Основной контент*/
 /*Блок с описанием проблем обучения*/
 
-.description {
-  margin: 100px 0;
-  display: flex;
-  justify-content: center;
-}
-
-.two-columns {
-  min-height: 250px;
-  width: 80%;
-  display: flex;
-  justify-content: space-between;
-}
-
 .two-columns__brief {
   margin: 0;
   padding: 0;
@@ -134,37 +93,6 @@
 
 /*Блок цифры и факты*/
 
-.section-title {
-  width: 60%;
-  margin: 0 auto;
-  margin-top: 100px;
-  margin-bottom: 20px;
-  padding: 0;
-  text-align: center;
-  line-height: 1.15;
-  font-size: 60px;
-  font-weight: bold;
-}
-
-.section-subtitle {
-  width: 60%;
-  margin: 0 auto;
-  padding: 0;
-  text-align: center;
-  line-height: 34px;
-  font-size: 24px;
-  font-weight: normal;
-}
-
-.table {
-  width: 1100px;
-  margin: 0 auto;
-  margin-bottom: 100px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-}
-
 .table__cell {
   width: 250px;
   margin-top: 60px;
@@ -193,15 +121,6 @@
 
 /*Блок метод фейнмана*/
 
-.feynman {
-  height: 790px;
-  padding-top: 100px;
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #f2f2f2;
-}
 
 .feynman__title {
   width: 648px;
@@ -248,15 +167,6 @@
 
 /*Блок принципов кауфмана*/
 
-.kaufman {
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  background-color: #1f1f1f;
-  overflow: hidden;
-}
-
 .section-title_theme_dark {
   margin-top: 90px;
   color: white;
@@ -298,12 +208,6 @@
 }
 
 /*Подвал*/
-
-.footer {
-  min-height: 350px;
-  display: flex;
-  background-color: #1f1f1f;
-}
 
 .footer__columns {
   width: 90%;
